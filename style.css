@@ -1,0 +1,98 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg);
+   height: 100vh;
+}
+.container{
+   backdrop-filter: blur(3px);
+    height: 400px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid white;
+    -webkit-backdrop-filter: blur(10px);
+    position: relative;
+}
+h2{
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+.input-box input {
+     margin-top: 40px; 
+   
+    border-style: none;
+   width:90%;
+   height:35px;
+   border-radius: 8px;
+     padding: 20px; 
+     font-size: 15px;
+    
+}
+.input-box i {
+    position: absolute;
+    margin-top: 55px;
+   right: 30px;
+   
+}
+.input-box1 i {
+    position: absolute;
+    margin-top: 35px;
+   right: 30px;
+}
+.input-box1 input{
+    margin-top: 20px;
+    border-style: none;
+   width:90%;
+   height:35px;
+   border-radius: 8px;
+   padding: 20px; 
+   font-size: 15px;
+}
+.remember-me{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 15px;
+}
+.login-btn{
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 530;
+} 
+.login-btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: silver;
+}
+.register{
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: 530;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 540;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+
